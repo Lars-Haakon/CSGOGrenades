@@ -2,7 +2,7 @@
 A web site for looking up grenades in csgo quickly
 
 Example of how a config file can look like
-
+ 
 [\
     {\
 		"id": 1,\

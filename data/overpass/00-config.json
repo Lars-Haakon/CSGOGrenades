@@ -2,9 +2,41 @@
 {
 "id": 1,
 "side": ["t"],
+"site": ["a"],
+"grenade": ["smoke"],
+"description": "Bank smoke from long. Simple left click throw",
+"src": "Overpass_BankLong_smoke.png"
+},
+{
+"id": 2,
+"side": ["t"],
 "site": ["b"],
 "grenade": ["smoke"],
-"description": "Simple left click throw",
-"src": "Inf_coffins_smoke_Try1.png"
+"description": "Heaven smoke from water. Simple left click throw",
+"src": "Overpass_Heaven_smoke.png"
+},
+{
+"id": 3,
+"side": ["t"],
+"site": ["b"],
+"grenade": ["smoke"],
+"description": "Site smoke from alley. Simple left click throw",
+"src": "Overpass_SiteB_smoke.png"
+},
+{
+"id": 4,
+"side": ["t"],
+"site": ["b"],
+"grenade": ["smoke"],
+"description": "Site smoke from connector. Simple left click throw",
+"src": "Overpass_SiteBcon_smoke.png"
+},
+{
+"id": 5,
+"side": ["t"],
+"site": ["b"],
+"grenade": ["smoke"],
+"description": "Site smoke from connector. Simple left click throw",
+"src": "Overpass_Truck_smoke.png"
 }
 ]

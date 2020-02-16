@@ -59,6 +59,7 @@
 			}
 
 			$object = new stdClass();
+			$object->id = $config->{"id"};
 			$object->description = $config->{"description"};
 			$object->src = 'data/' . $map . '/' . $config->{"src"};;
 			array_push($result, $object);

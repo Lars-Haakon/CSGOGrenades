@@ -99,6 +99,38 @@
 "id": 13,
 "side": ["t"],
 "site": ["b"],
+"grenade": ["flash"],
+"description": "Pop flash from connector to water. Simple left click throw",
+"src": "Overpass_Water_popflashDS.png"
+},
+{
+"id": 14,
+"side": ["t"],
+"site": ["a"],
+"grenade": ["smoke"],
+"description": "Site A smoke from long. Simple left click throw",
+"src": "Overpass_SiteAlong_smokeDS.png"
+},
+{
+"id": 15,
+"side": ["t"],
+"site": ["b"],
+"grenade": ["fire"],
+"description": "Barrels molly from tracks. Walk forward left click throw",
+"src": "Overpass_BarrelsTracks_mollyDS.png"
+},
+{
+"id": 16,
+"side": ["t"],
+"site": ["b"],
+"grenade": ["smoke"],
+"description": "Bridge smoke from fountain. Stand up and left click throw",
+"src": "Overpass_BridgeFont_smokeDS.png"
+},
+{
+"id": 17,
+"side": ["t"],
+"site": ["b"],
 "grenade": ["smoke"],
 "description": "Truck smoke from mid. Simple left click throw",
 "src": "Overpass_Truck_smokeDS.png"

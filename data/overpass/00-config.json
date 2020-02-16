@@ -5,38 +5,102 @@
 "site": ["a"],
 "grenade": ["smoke"],
 "description": "Bank smoke from long. Simple left click throw",
-"src": "Overpass_BankLong_smoke.png"
+"src": "Overpass_BankLong_smokeDS.png"
 },
 {
 "id": 2,
 "side": ["t"],
-"site": ["b"],
+"site": ["a"],
 "grenade": ["smoke"],
-"description": "Heaven smoke from water. Simple left click throw",
-"src": "Overpass_Heaven_smoke.png"
+"description": "Bank smoke from mid. Simple left click throw",
+"src": "Overpass_BankMid_smokeDS.png"
 },
 {
 "id": 3,
 "side": ["t"],
 "site": ["b"],
-"grenade": ["smoke"],
-"description": "Site smoke from alley. Simple left click throw",
-"src": "Overpass_SiteB_smoke.png"
+"grenade": ["fire"],
+"description": "Barrels molly from water. Walk forward and left click throw",
+"src": "Overpass_BarrelsCon_mollyDS.png"
 },
 {
 "id": 4,
 "side": ["t"],
 "site": ["b"],
 "grenade": ["smoke"],
-"description": "Site smoke from connector. Simple left click throw",
-"src": "Overpass_SiteBcon_smoke.png"
+"description": "Bridge smoke from alley. Simple left click throw",
+"src": "Overpass_BridgeT_smokeDS.png"
 },
 {
 "id": 5,
+"side": ["ct"],
+"site": ["a"],
+"grenade": ["smoke"],
+"description": "Connector smoke. Simple left click throw",
+"src": "Overpass_Connector_smokeDS.png"
+},
+{
+"id": 6,
+"side": ["t"],
+"site": ["a"],
+"grenade": ["smoke"],
+"description": "Dumpster smoke from mid. Simple left click throw",
+"src": "Overpass_Dumpster_smokeDS.png"
+},
+{
+"id": 7,
 "side": ["t"],
 "site": ["b"],
 "grenade": ["smoke"],
-"description": "Site smoke from connector. Simple left click throw",
-"src": "Overpass_Truck_smoke.png"
+"description": "Heaven smoke from water. Simple left click throw",
+"src": "Overpass_Heaven_smokeDS.png"
+},
+{
+"id": 8,
+"side": ["ct"],
+"site": ["b"],
+"grenade": ["fire"],
+"description": "Short tunnel molly from walkway. Simple left click throw",
+"src": "Overpass_ShortTunnel_mollyDS.png"
+},
+{
+"id": 9,
+"side": ["ct"],
+"site": ["b"],
+"grenade": ["smoke"],
+"description": "Short tunnel smoke. Simple left click throw",
+"src": "Overpass_ShortTunnel_smokeDS.png"
+},
+{
+"id": 10,
+"side": ["t"],
+"site": ["a"],
+"grenade": ["smoke"],
+"description": "Site A smoke from mid. Simple left click throw",
+"src": "Overpass_SiteA_smokeDS.png"
+},
+{
+"id": 11,
+"side": ["t"],
+"site": ["b"],
+"grenade": ["smoke"],
+"description": "Site B smoke from alley. Simple left click throw",
+"src": "Overpass_SiteB_smokeDS.png"
+},
+{
+"id": 12,
+"side": ["t"],
+"site": ["b"],
+"grenade": ["smoke"],
+"description": "Site B smoke from water. Simple left click throw",
+"src": "Overpass_SiteBcon_smokeDS.png"
+},
+{
+"id": 13,
+"side": ["t"],
+"site": ["b"],
+"grenade": ["smoke"],
+"description": "Truck smoke from mid. Simple left click throw",
+"src": "Overpass_Truck_smokeDS.png"
 }
 ]

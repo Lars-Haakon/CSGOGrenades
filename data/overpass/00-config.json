@@ -20,7 +20,7 @@
 "side": ["t"],
 "site": ["b"],
 "grenade": ["fire"],
-"description": "Barrels molly from water. Walk forward and left click throw",
+"description": "Barrels molly from water. Run forward and left click throw",
 "src": "Overpass_BarrelsCon_mollyDS.png"
 },
 {
@@ -116,7 +116,7 @@
 "side": ["t"],
 "site": ["b"],
 "grenade": ["fire"],
-"description": "Barrels molly from tracks. Walk forward left click throw",
+"description": "Barrels molly from tracks. Run forward left click throw",
 "src": "Overpass_BarrelsTracks_mollyDS.png"
 },
 {

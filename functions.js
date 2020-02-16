@@ -32,7 +32,7 @@ function search()
         newDiv.appendChild(document.createElement("br"));
 
         var newLabel = document.createElement("p");
-        newLabel.innerHTML = "<b>" + images[i].id + "</b>" + images[i].description;
+        newLabel.innerHTML = "<b>" + images[i].id + "</b>-" + images[i].description;
         newDiv.appendChild(newLabel);
 
         imagesBody.appendChild(newDiv);

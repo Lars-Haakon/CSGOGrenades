@@ -51,7 +51,9 @@ function search()
         var img = new Image(); 
         img.src = images[i].src;
         img.style = "width: inherit;";
-        img.onclick = openFullscreen(img);
+        img.onclick = function () {
+            openFullscreen(this);
+        };
         newDiv.appendChild(img);
 
         newDiv.appendChild(document.createElement("br"));

@@ -47,13 +47,13 @@ function search()
       {
         var newDiv = document.createElement("div"); 
         newDiv.style = "width: 350px;float: left;margin-right: 5px;";
+        newDiv.onclick = function () {
+            openFullscreen(this);
+        };
 
         var img = new Image(); 
         img.src = images[i].src;
         img.style = "width: inherit;";
-        img.onclick = function () {
-            openFullscreen(this);
-        };
         newDiv.appendChild(img);
 
         newDiv.appendChild(document.createElement("br"));

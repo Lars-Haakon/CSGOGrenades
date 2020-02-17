@@ -5,7 +5,7 @@
 "site": ["a"],
 "grenade": ["smoke"],
 "description": "Bank smoke from long. Left click throw",
-"src": "Overpass_BankLong_smokeDS.png"
+"src": "Overpass_BankLong_smokeDS.jpg"
 },
 {
 "id": 2,
@@ -13,7 +13,7 @@
 "site": ["a"],
 "grenade": ["smoke"],
 "description": "Bank smoke from mid. Left click throw",
-"src": "Overpass_BankMid_smokeDS.png"
+"src": "Overpass_BankMid_smokeDS.jpg"
 },
 {
 "id": 3,
@@ -21,7 +21,7 @@
 "site": ["b"],
 "grenade": ["fire"],
 "description": "Barrels molly from water. Run forward and left click throw",
-"src": "Overpass_BarrelsCon_mollyDS.png"
+"src": "Overpass_BarrelsCon_mollyDS.jpg"
 },
 {
 "id": 4,
@@ -29,7 +29,7 @@
 "site": ["b"],
 "grenade": ["smoke"],
 "description": "Bridge smoke from alley. Left click throw",
-"src": "Overpass_BridgeT_smokeDS.png"
+"src": "Overpass_BridgeT_smokeDS.jpg"
 },
 {
 "id": 5,
@@ -37,7 +37,7 @@
 "site": ["a"],
 "grenade": ["smoke"],
 "description": "Connector smoke. Left click throw",
-"src": "Overpass_Connector_smokeDS.png"
+"src": "Overpass_Connector_smokeDS.jpg"
 },
 {
 "id": 6,
@@ -45,7 +45,7 @@
 "site": ["a"],
 "grenade": ["smoke"],
 "description": "Dumpster smoke from mid. Left click throw",
-"src": "Overpass_Dumpster_smokeDS.png"
+"src": "Overpass_Dumpster_smokeDS.jpg"
 },
 {
 "id": 7,
@@ -53,7 +53,7 @@
 "site": ["b"],
 "grenade": ["smoke"],
 "description": "Heaven smoke from water. Left click throw",
-"src": "Overpass_Heaven_smokeDS.png"
+"src": "Overpass_Heaven_smokeDS.jpg"
 },
 {
 "id": 8,
@@ -61,7 +61,7 @@
 "site": ["b"],
 "grenade": ["fire"],
 "description": "Short tunnel molly from walkway. Left click throw",
-"src": "Overpass_ShortTunnel_mollyDS.png"
+"src": "Overpass_ShortTunnel_mollyDS.jpg"
 },
 {
 "id": 9,
@@ -69,7 +69,7 @@
 "site": ["b"],
 "grenade": ["smoke"],
 "description": "Short tunnel smoke. Left click throw",
-"src": "Overpass_ShortTunnel_smokeDS.png"
+"src": "Overpass_ShortTunnel_smokeDS.jpg"
 },
 {
 "id": 10,
@@ -77,7 +77,7 @@
 "site": ["a"],
 "grenade": ["smoke"],
 "description": "Site A smoke from mid. Left click throw",
-"src": "Overpass_SiteA_smokeDS.png"
+"src": "Overpass_SiteA_smokeDS.jpg"
 },
 {
 "id": 11,
@@ -85,7 +85,7 @@
 "site": ["b"],
 "grenade": ["smoke"],
 "description": "Site B smoke from alley. Left click throw",
-"src": "Overpass_SiteB_smokeDS.png"
+"src": "Overpass_SiteB_smokeDS.jpg"
 },
 {
 "id": 12,
@@ -93,7 +93,7 @@
 "site": ["b"],
 "grenade": ["smoke"],
 "description": "Site B smoke from water. Left click throw",
-"src": "Overpass_SiteBcon_smokeDS.png"
+"src": "Overpass_SiteBcon_smokeDS.jpg"
 },
 {
 "id": 13,
@@ -101,7 +101,7 @@
 "site": ["b"],
 "grenade": ["flash"],
 "description": "Pop flash from connector to water. Left click throw",
-"src": "Overpass_Water_popflashDS.png"
+"src": "Overpass_Water_popflashDS.jpg"
 },
 {
 "id": 14,
@@ -109,7 +109,7 @@
 "site": ["a"],
 "grenade": ["smoke"],
 "description": "Site A smoke from long. Left click throw",
-"src": "Overpass_SiteAlong_smokeDS.png"
+"src": "Overpass_SiteAlong_smokeDS.jpg"
 },
 {
 "id": 15,
@@ -117,7 +117,7 @@
 "site": ["b"],
 "grenade": ["fire"],
 "description": "Barrels molly from tracks. Run forward left click throw",
-"src": "Overpass_BarrelsTracks_mollyDS.png"
+"src": "Overpass_BarrelsTracks_mollyDS.jpg"
 },
 {
 "id": 16,
@@ -125,7 +125,7 @@
 "site": ["b"],
 "grenade": ["smoke"],
 "description": "Bridge smoke from fountain. Stand up and left click throw",
-"src": "Overpass_BridgeFont_smokeDS.png"
+"src": "Overpass_BridgeFont_smokeDS.jpg"
 },
 {
 "id": 17,
@@ -133,6 +133,6 @@
 "site": ["b"],
 "grenade": ["smoke"],
 "description": "Truck smoke from mid. Left click throw",
-"src": "Overpass_Truck_smokeDS.png"
+"src": "Overpass_Truck_smokeDS.jpg"
 }
 ]

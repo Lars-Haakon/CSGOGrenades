@@ -1,29 +1,9 @@
-function openFullscreen(elem) {
-  if (elem.requestFullscreen) {
-    elem.requestFullscreen();
-  } else if (elem.mozRequestFullScreen) { /* Firefox */
-    elem.mozRequestFullScreen();
-  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
-    elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { /* IE/Edge */
-    elem.msRequestFullscreen();
-  }
-}
-
-function closeFullscreen(elem) {
-  if (document.exitFullscreen) {
-    document.exitFullscreen();
-  } else if (document.mozCancelFullScreen) {
-    document.mozCancelFullScreen();
-  } else if (document.webkitExitFullscreen) {
-    document.webkitExitFullscreen();
-  } else if (document.msExitFullscreen) {
-    document.msExitFullscreen();
-  }
-}
 
 function search()
 {
+  var videotest = document.getElementById('videotest');
+  console.log(videotest);
+
 	var search = {
 		maps:GetFilters("mapdd"), 
 		sides:GetFilters("sidedd"), 
@@ -47,9 +27,6 @@ function search()
       {
         var newDiv = document.createElement("div"); 
         newDiv.style = "width: 350px;float: left;margin-right: 5px;";
-        newDiv.onclick = function () {
-            openFullscreen(this);
-        };
 
         var img = new Image(); 
         img.src = images[i].src;

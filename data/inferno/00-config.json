@@ -5,7 +5,7 @@
 "site": ["b"],
 "grenade": ["smoke"],
 "description": "Coffins smoke. Left click throw",
-"src": "Inf_coffins_mollyDS.jpg"
+"src": "Inf_coffins_smokeDS.jpg"
 },
 {
 "id": 2,
@@ -85,6 +85,6 @@
 "site": ["a"],
 "grenade": ["flash"],
 "description": "Pit flash. Left click throw",
-"src": "Inf_pi_flashDS.jpg"
+"src": "Inf_pit_flashDS.jpg"
 }
 ]

@@ -3,6 +3,10 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <style>
 .dropbtn {
   background-color: #4CAF50;
@@ -51,10 +55,171 @@ label {
   display: block;
   width: 100%;
 }
+.pills-section {
+    padding: 10px;
+}
+.pills-maps {
+    width: 60%;
+    margin: auto;
+}
+
+.filters-section {
+    padding: 10px;
+}
+.filters-container {
+    width: 60%;
+    margin: auto;
+}
 </style>
 <script src="functions.js"></script>
 </head>
 <body>
+<div >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">CSGO Grenades</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample07">
+<!--                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>-->
+            </div>
+        </div>
+    </nav>
+</div>
+<main role="main">
+
+    <section class="jumbotron text-center pills-section">
+        <div class="pills-maps">
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item" onclick="onPillClick('dust2')">
+                <a class="nav-link nav-map active" id="dust2" href="#">Dust2</a>
+                </li>
+                <li class="nav-item" onclick="onPillClick('inferno')">
+                    <a class="nav-link nav-map" id="inferno" href="#">Inferno</a>
+                </li>
+                <li class="nav-item" onclick="onPillClick('mirage')">
+                    <a class="nav-link nav-map" id="mirage" href="#">Mirage</a>
+                </li>
+                <li class="nav-item" onclick="onPillClick('nuke')">
+                    <a class="nav-link nav-map" id="nuke" href="#">Nuke</a>
+                </li>
+                <li class="nav-item" onclick="onPillClick('overpass')">
+                    <a class="nav-link nav-map" id="overpass" href="#">Overpass</a>
+                </li>
+                <li class="nav-item" onclick="onPillClick('vertigo')">
+                    <a class="nav-link nav-map" id="vertigo" href="#">Vertigo</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="col-sm-2">Side</div>
+                <div class="col-sm-10">
+                    <div class="form-check"id="side">
+                        <input class="form-check-input" type="checkbox" id="t">
+                        <label class="form-check-label" for="t">
+                            T
+                        </label>
+                        <input class="form-check-input" type="checkbox" id="ct">
+                        <label class="form-check-label" for="ct">
+                            CT
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col-sm-2">Site</div>
+                <div class="col-sm-10">
+                    <div class="form-check" id="site">
+                        <input class="form-check-input" type="checkbox" id="a">
+                        <label class="form-check-label" for="a">
+                            A
+                        </label>
+                        <input class="form-check-input" type="checkbox" id="b">
+                        <label class="form-check-label" for="b">
+                            B
+                        </label>
+                        <input class="form-check-input" type="checkbox" id="mid">
+                        <label class="form-check-label" for="mid">
+                            Mid
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="col-sm-2">Grenade</div>
+                <div class="col-sm-10">
+                    <div class="form-check" id="grenade">
+                        <input class="form-check-input" type="checkbox" id="smoke">
+                        <label class="form-check-label" for="smoke">
+                            Smoke
+                        </label>
+                        <input class="form-check-input" type="checkbox" id="fire">
+                        <label class="form-check-label" for="fire">
+                            Fire
+                        </label>
+                        <input class="form-check-input" type="checkbox" id="flash">
+                        <label class="form-check-label" for="flash">
+                            Flash
+                        </label>
+                        <input class="form-check-input" type="checkbox" id="he">
+                        <label class="form-check-label" for="he">
+                            HE
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top" src="data/inferno/Inf_coffins_smokeDS.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">1-Coffins smoke. Left click throw</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                </div>
+                                <small class="text-muted">9 mins</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</main>
+
 
 <div class="dropdown">
   <button onclick="hideDD('mapdd')" class="dropbtn">Map <i class="fa fa-caret-down"></i></button>
@@ -95,9 +260,31 @@ label {
 
 </div>
 
+
 <script>
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
+$("#side :input").on("click", filtersChanged);
+
+$("#site :input").on("click", filtersChanged);
+
+$("#grenade :input").on("click", filtersChanged);
+
+var map = "dust2";
+
+function onPillClick(e) {
+     var el = $( "#"+e );
+     $(".nav-map").removeClass("active");
+     el.addClass("active");
+     map = e;
+}
+
+function filtersChanged() {
+    console.log("ct clicked");
+
+}
+
+
 function hideDD(ddfilter) {
 	var ddfilters = document.getElementsByClassName("dropdown-content");
 

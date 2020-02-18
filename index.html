@@ -63,12 +63,8 @@ label {
     margin: auto;
 }
 
-.filters-section {
-    padding: 10px;
-}
 .filters-container {
-    width: 60%;
-    margin: auto;
+    margin-bottom: 20px;
 }
 </style>
 <script src="functions.js"></script>
@@ -133,17 +129,17 @@ label {
         </div>
     </section>
 
-    <div class="container">
+    <div class="container filters-container">
         <div class="row">
             <div class="col">
                 <div class="col-sm-2">Side</div>
                 <div class="col-sm-10">
                     <div class="form-check"id="side">
-                        <input class="form-check-input" type="checkbox" id="t">
+                        <input class="form-check-input" type="checkbox" value="t" id="t" checked>
                         <label class="form-check-label" for="t">
                             T
                         </label>
-                        <input class="form-check-input" type="checkbox" id="ct">
+                        <input class="form-check-input" type="checkbox" value="ct" id="ct" checked>
                         <label class="form-check-label" for="ct">
                             CT
                         </label>
@@ -154,15 +150,15 @@ label {
                 <div class="col-sm-2">Site</div>
                 <div class="col-sm-10">
                     <div class="form-check" id="site">
-                        <input class="form-check-input" type="checkbox" id="a">
+                        <input class="form-check-input" type="checkbox" value="a" id="a" checked>
                         <label class="form-check-label" for="a">
                             A
                         </label>
-                        <input class="form-check-input" type="checkbox" id="b">
+                        <input class="form-check-input" type="checkbox" value="b" id="b" checked>
                         <label class="form-check-label" for="b">
                             B
                         </label>
-                        <input class="form-check-input" type="checkbox" id="mid">
+                        <input class="form-check-input" type="checkbox" value="mid" id="mid" checked>
                         <label class="form-check-label" for="mid">
                             Mid
                         </label>
@@ -173,19 +169,19 @@ label {
                 <div class="col-sm-2">Grenade</div>
                 <div class="col-sm-10">
                     <div class="form-check" id="grenade">
-                        <input class="form-check-input" type="checkbox" id="smoke">
+                        <input class="form-check-input" type="checkbox" value="smoke" id="smoke" checked>
                         <label class="form-check-label" for="smoke">
                             Smoke
                         </label>
-                        <input class="form-check-input" type="checkbox" id="fire">
+                        <input class="form-check-input" type="checkbox" value="fire" id="fire" checked>
                         <label class="form-check-label" for="fire">
                             Fire
                         </label>
-                        <input class="form-check-input" type="checkbox" id="flash">
+                        <input class="form-check-input" type="checkbox" value="flash" id="flash" checked>
                         <label class="form-check-label" for="flash">
                             Flash
                         </label>
-                        <input class="form-check-input" type="checkbox" id="he">
+                        <input class="form-check-input" type="checkbox" value="he" id="he" checked>
                         <label class="form-check-label" for="he">
                             HE
                         </label>
@@ -197,22 +193,7 @@ label {
 
     <div class="album py-5 bg-light">
         <div class="container">
-
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="data/inferno/Inf_coffins_smokeDS.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <p class="card-text">1-Coffins smoke. Left click throw</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row" id="imagesList">
 
             </div>
         </div>
@@ -221,44 +202,6 @@ label {
 </main>
 
 
-<div class="dropdown">
-  <button onclick="hideDD('mapdd')" class="dropbtn">Map <i class="fa fa-caret-down"></i></button>
-  <div id="mapdd" class="dropdown-content">
-	<label><input type="checkbox" value="dust2">Dust II</label>
-	<label><input type="checkbox" value="inferno">Inferno</label>
-	<label><input type="checkbox" value="mirage">Mirage</label>
-	<label><input type="checkbox" value="nuke">Nuke</label>
-  <label><input type="checkbox" value="overpass">Overpass</label>
-  <label><input type="checkbox" value="train">Train</label>
-	<label><input type="checkbox" value="vertigo">Vertigo</label>
-  </div>
-
-  <button onclick="hideDD('sidedd')" class="dropbtn">Side <i class="fa fa-caret-down"></i></button>
-  <div id="sidedd" class="dropdown-content">
-	<label><input type="checkbox" value="t" checked>T</label>
-	<label><input type="checkbox" value="ct" checked>CT</label>
-  </div>
-
-  <button onclick="hideDD('sitedd')" class="dropbtn">Site <i class="fa fa-caret-down"></i></button>
-  <div id="sitedd" class="dropdown-content">
-	<label><input type="checkbox" value="a" checked>A</label>
-  <label><input type="checkbox" value="b" checked>B</label>
-  <label><input type="checkbox" value="mid" checked>Mid</label>
-  </div>
-
-  <button onclick="hideDD('grenadedd')" class="dropbtn">Grenade <i class="fa fa-caret-down"></i></button>
-  <div id="grenadedd" class="dropdown-content">
-	<label><input type="checkbox" value="smoke" checked>Smoke</label>
-	<label><input type="checkbox" value="fire" checked>Fire</label>
-	<label><input type="checkbox" value="flash" checked>Flash</label>
-	<label><input type="checkbox" value="he" checked>HE</label>
-  </div>
-</div>
-<br>
-<br>
-<div id="images">
-
-</div>
 
 
 <script>
@@ -270,18 +213,21 @@ $("#site :input").on("click", filtersChanged);
 
 $("#grenade :input").on("click", filtersChanged);
 
-var map = "dust2";
+var map = "dust2"
+
+onPillClick("inferno");
 
 function onPillClick(e) {
      var el = $( "#"+e );
      $(".nav-map").removeClass("active");
      el.addClass("active");
      map = e;
+     search();
 }
 
 function filtersChanged() {
     console.log("ct clicked");
-
+    search();
 }
 
 
@@ -312,15 +258,20 @@ function hideDD(ddfilter) {
   }
 }
 
+function getMap() {
+    return [map]
+}
+
 function GetFilters(category)
 {
-	var dropdown = document.getElementById(category).getElementsByTagName("input");
+    var checkboxes = $("#"+category+" :input");
+
 	var filtered = [];
-	for(var i = 0; i < dropdown.length; i++)
+	for(var i = 0; i < checkboxes.length; i++)
 	{
-			if(dropdown[i].checked)
+			if(checkboxes[i].checked)
 			{
-				filtered.push(dropdown[i].value);
+				filtered.push(checkboxes[i].value);
 			}
 	}
 	

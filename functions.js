@@ -27,10 +27,10 @@ function search()
       {
         var div = document.createElement('div');
         div.className = "col-md-4";
-        div.innerHTML = "                    <div class=\"card mb-4 box-shadow\">\n" +
+        div.innerHTML = "                    <div class=\"card mb-4 box-shadow\" onclick ='onImageClick(this)'>\n" +
             "                        <img class=\"card-img-top\" src="+images[i].src+">\n" +
             "                        <div class=\"card-body\">\n" +
-            "                            <p class=\"card-text\">"+"<b>" + images[i].id + "</b>-" +images[i].description+"</p>\n" +
+            "                            <p class=\"card-text\">"+"<b>" + images[i].id + "-</b>" +images[i].description+"</p>\n" +
             "                            <div class=\"d-flex justify-content-between align-items-center\">\n" +
             "                                <div class=\"btn-group\">\n" +
             "                                    <button type=\"button\" class=\"btn btn-sm btn-outline-secondary\">View</button>\n" +

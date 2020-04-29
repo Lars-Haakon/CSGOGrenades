@@ -93,6 +93,7 @@ label {
     margin: auto;
     display: block;
     width: 80%;
+    max-width: 1200px;
 }
 
 /* Caption of Modal Image */
@@ -378,15 +379,12 @@ function GetFilters(category)
 }
 
 function onImageClick(e) {
-    console.log(e);
-    console.log($(e).children('img').attr('src'));
-    var img = $(e).children('img').attr('src')
-    var caption = $(e).find('.card-text').clone()    //clone the element
+    var img = $(e).children('img').attr('src');
+    captionText.innerHTML = $(e).find('.card-text').clone()    //clone the element
         .children() //select all the children
         .remove()   //remove all the children
         .end()  //again go back to selected element
         .text();
-    captionText.innerHTML = caption;
     modal.style.display = "block";
     modalImg.src = img;
 }

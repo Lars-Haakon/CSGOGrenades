@@ -1,0 +1,90 @@
+[
+{
+"id": 1,
+"side": ["t"],
+"site": ["mid"],
+"grenade": ["smoke"],
+"description": "Garage smoke. Left click throw",
+"src": "Nuke_garage_smokeDS.jpg"
+},
+{
+"id": 2,
+"side": ["t"],
+"site": ["a"],
+"grenade": ["smoke"],
+"description": "Heaven smoke from T roof. NB! BREAK WINDOW. Left click throw",
+"src": "Nuke_heaven_smokeDS.jpg"
+},
+{
+"id": 3,
+"side": ["t"],
+"site": ["a"],
+"grenade": ["fire"],
+"description": "NB! Different layout. Heaven molly and smoke from site. Throw molly first, then smoke. Left click throw",
+"src": "Nuke_heavenFromSite_mollySmokeDS.jpg"
+},
+{
+"id": 4,
+"side": ["t"],
+"site": ["mid"],
+"grenade": ["smoke"],
+"description": "Outside cross. Left click throw",
+"src": "Nuke_outsideCross_smokeDS.jpg"
+},
+{
+"id": 5,
+"side": ["t"],
+"site": ["mid"],
+"grenade": ["smoke"],
+"description": "Ramp cross. Left click throw",
+"src": "Nuke_rampCross_smokeDS.jpg"
+},
+{
+"id": 6,
+"side": ["t"],
+"site": ["a"],
+"grenade": ["fire"],
+"description": "Top Hut molly. NB! BREAK WINDOW. Run left click throw",
+"src": "Nuke_topHut_mollyDS.jpg"
+},
+{
+"id": 7,
+"side": ["t"],
+"site": ["mid"],
+"grenade": ["smoke"],
+"description": "Outside smoke from Mini. Jump left click throw",
+"src": "Nuke_outsideMini_smokeDS.jpg"
+},
+{
+"id": 8,
+"side": ["t"],
+"site": ["mid"],
+"grenade": ["smoke"],
+"description": "Secret close smoke from T spawn. Crouch jump left click throw",
+"src": "Nuke_secretClose_smokeDS.jpg"
+},
+{
+"id": 9,
+"side": ["t"],
+"site": ["mid"],
+"grenade": ["smoke"],
+"description": "Secret far smoke from T spawn. Jump left click throw",
+"src": "Nuke_secretFar_smokeDS.jpg"
+},
+{
+"id": 10,
+"side": ["t"],
+"site": ["mid"],
+"grenade": ["smoke"],
+"description": "Secret close smoke from T roof. Left click throw",
+"src": "Nuke_secretTroofClose_smokeDS.jpg"
+},
+{
+"id": 11,
+"side": ["t"],
+"site": ["mid"],
+"grenade": ["smoke"],
+"description": "Secret far smoke from T roof. Left click throw",
+"src": "Nuke_secretTroofFar_smokeDS.jpg"
+}
+]

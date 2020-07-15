@@ -1,3 +1,122 @@
 [
-
+{
+"id": 1,
+"side": ["t"],
+"site": ["a"],
+"grenade": ["smoke"],
+"description": "A site, left side smoke. Jump left click throw",
+"src": "A_leftside_smoke_DS.jpg"
+},
+{
+"id": 2,
+"side": ["t"],
+"site": ["a"],
+"grenade": ["smoke"],
+"description": "A site, right side smoke. Left click throw",
+"src": "A_rightside_smoke_DS.jpg"
+},
+{
+"id": 3,
+"side": ["t"],
+"site": ["a"],
+"grenade": ["smoke"],
+"description": "A site, backdoor smoke. Left click throw",
+"src": "Backdoor_smoke_DS.jpg"
+},
+{
+"id": 4,
+"side": ["t"],
+"site": ["a"],
+"grenade": ["smoke"],
+"description": "Ally/short smoke from T spawn. Jump left click throw",
+"src": "ShortAfromT_smoke_DS.jpg"
+},
+{
+"id": 5,
+"side": ["ct"],
+"site": ["a"],
+"grenade": ["smoke"],
+"description": "Short smoke from Backdoor. Left click throw",
+"src": "ShortFromBackdoor_smoke_DS.jpg"
+},
+{
+"id": 6,
+"side": ["ct"],
+"site": ["a"],
+"grenade": ["smoke"],
+"description": "Deep ramp smoke from A. Running left click throw",
+"src": "Ramp_smoke_DS.jpg"
+},
+{
+"id": 7,
+"side": ["t"],
+"site": ["mid"],
+"grenade": ["smoke"],
+"description": "Connector smoke from mid. Left click throw",
+"src": "Con_smoke_DS.jpg"
+},
+{
+"id": 8,
+"side": ["t"],
+"site": ["mid"],
+"grenade": ["smoke"],
+"description": "CT entrance to mid smoke, from mid. Left click throw",
+"src": "CT_smoke_DS.jpg"
+},
+{
+"id": 9,
+"side": ["t"],
+"site": ["mid"],
+"grenade": ["smoke"],
+"description": "Elevator entrance smoke from mid. Left click throw",
+"src": "MidRotate_smoke_DS.jpg"
+},
+{
+"id": 10,
+"side": ["ct"],
+"site": ["mid"],
+"grenade": ["smoke"],
+"description": "T entrance to mid smoke from sandbags. Left click throw",
+"src": "MidForCT_smoke_DS.jpg"
+},
+{
+"id": 11,
+"side": ["t"],
+"site": ["b"],
+"grenade": ["smoke"],
+"description": "B cross smoke from stairs. Left click throw",
+"src": "Bcross_smoke_DS.jpg"
+},
+{
+"id": 12,
+"side": ["t"],
+"site": ["b"],
+"grenade": ["smoke"],
+"description": "CT entrance to B smoke from stairs. Left click throw",
+"src": "CTentrence_smoke_DS.jpg"
+},
+{
+"id": 13,
+"side": ["t"],
+"site": ["b"],
+"grenade": ["fire"],
+"description": "Double beam on B molly from stairs. Left click throw",
+"src": "Bbeamcorner_molo_DS.jpg"
+},
+{
+"id": 14,
+"side": ["t"],
+"site": ["b"],
+"grenade": ["fire"],
+"description": "B site molly from stairs. Running left click throw",
+"src": "Bsite_molo_DS.jpg"
+},
+{
+"id": 15,
+"side": ["ct"],
+"site": ["b"],
+"grenade": ["smoke"],
+"description": "Deep stairs smoke from connector. Left click throw",
+"src": "StairsFromCon_smoke_DS.jpg"
+}
 ]
